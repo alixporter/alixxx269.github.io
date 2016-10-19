@@ -1,0 +1,231 @@
+/*Box Model Hack*/
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/*Clear Fix Hack*/
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: block;
+} 
+.clearfix:after {
+    clear: both;
+}
+header {
+	background-color: #ADD8E6;
+	border-bottom: 3px solid #FFF;
+}
+ul {
+	margin: 50px 0;
+	width: 100%;
+}
+#logo {
+	width: 100%;
+	max-width: 408px;
+	margin: 30px auto;
+}
+li {
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Bree Serif', serif;
+	font-size: 20px;
+}
+a:hover {
+	text-decoration: none;
+	color: #B6C9CC;
+}
+#line {
+	color: white;
+}
+#randompic {
+	background-size: cover;
+	background-position: center;
+}
+aside {
+	border: 1px solid;
+	width: 100%;
+	padding: 50px;
+	background: rgba(250,250,250,0.7);
+	margin: 100px 0;
+}
+#profile {
+	font-family: 'Bree Serif', serif;
+	font-size: 20px;
+	line-height: 150%;
+}
+h1 {
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	line-height: 110%;
+}
+.bauble1 {
+	display: block;
+	margin: auto;
+}
+.bauble2 {
+	padding: 3px;
+}
+.pacifico {
+	font-family: 'Pacifico', cursive;
+}
+.bree {
+	font-family: 'Bree Serif', serif;
+}
+#handmade {
+	background-image: url('../images/tblleft.jpg');
+}
+#collect {
+	background-image: url('../images/flowleft.jpg');
+}
+#finished {
+	background-image: url('../images/wreathleft.jpg');
+}
+.construction {
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+}
+.state, .state-full { 
+	cursor: pointer; 
+}
+.state-full { 
+	display: none; 
+	color: #FFF;
+	background-color: rgba(0,0,0,0.5);
+	margin: 0;
+	height: 110px;
+	padding: 20px;
+}
+#contactform {
+	background-color: #ADD8E6;
+	clear: both;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+#getintouch {
+	color: #FFF;
+	clear: both;
+	padding: 20px;
+}
+h3 {
+	color: #FFF;
+	text-align: center;
+	background-color: rgba(173,216,230,0.5);
+	margin: 0;
+	height: 80px;
+	padding: 15px 0 5px 0;
+}
+input  {
+  border: 1px solid;
+  padding: 10px;
+  font-size: 14px;
+  margin: 10px 0;
+ }
+ #inputform {
+ 	text-align: center;
+ 	display: block;
+ 	position: center;
+ }
+ #submitform {
+ 	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 50px;
+	position: center;
+	margin: 10px;
+}
+.form-control {
+	padding: 10px;
+}
+.checkbox {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 15px;
+	color: #FFF;
+}
+footer {
+	background: #B6C9CC;
+	margin-top: 0;
+}
+#alixlogo {
+	width: 100%;
+	max-width: 107px;
+	max-height: 107px;
+	margin: 5px 0;
+}
+#designedby {
+	color: #FFF;
+	padding: 20px;
+	margin-bottom: 0;
+}
+
+
+.AVMgallery {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	width: 100%
+}
+.biggallery {
+	background-image: url(../images/DSC6368pics.jpg)
+}
+#biggalleryone {
+	background-position: top;
+}
+#biggallerytwo {
+	background-position: center;
+}
+#biggallerythree {
+	background-position: bottom;
+}
+#galleryone {
+	background-image: url(../images/DSC6355pics.jpg)
+}
+#gallerytwo {
+	background-image: url(../images/DSC6381pics.jpg);
+}
+#gallerythree {
+	background-image: url(../images/DSC6357pics.jpg);
+}
+#galleryfour {
+	background-image: url(../images/DSC6421pics.jpg);
+}
+#galleryfive {
+	background-image: url(../images/DSC6391pics.jpg);
+}
+#gallerysix {
+	background-image: url(../images/DSC6439pics.jpg);
+}
+#galleryseven {
+	background-image: url(../images/DSC6363pics.jpg);
+}
+#galleryeight {
+	background-image: url(../images/DSC6377pics.jpg);
+}
+#gallerynine {
+	background-image: url(../images/DSC6361pics.jpg);
+}
+#galleryten {
+	background-image: url(../images/DSC6358pics.jpg);
+}
+#galleryeleven {
+	background-image: url(../images/DSC6376pics.jpg);
+}
+#gallerytwelve {
+	background-image: url(../images/DSC6367pics.jpg);
+}
+.grow {
+	z-index: 1 !important;
+	position: relative;
+}
+.grow:hover {
+    transform: scale(1.3);
+    z-index: 999 !important;
+    position: absolute;
+}
