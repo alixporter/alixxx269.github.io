@@ -17,6 +17,9 @@ header {
 	background-color: #ADD8E6;
 	border-bottom: 3px solid #FFF;
 }
+.row{
+/*	width: 100%;
+*/}
 ul {
 	margin: 50px 0;
 	width: 100%;
@@ -172,9 +175,9 @@ footer {
 	background-position: center;
 	width: 100%
 }
-.biggallery {
+/*.biggallery {
 	background-image: url(../images/DSC6368pics.jpg)
-}
+}*/
 #biggalleryone {
 	background-position: top;
 }
@@ -228,4 +231,9 @@ footer {
     transform: scale(1.3);
     z-index: 999 !important;
     position: absolute;
+    border: solid 6px #FFF;
 }
+  .featherlight .featherlight-image {
+    max-height: 60vh !important;
+    width: auto !important;
+  }
