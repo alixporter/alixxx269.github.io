@@ -46,6 +46,15 @@ a:hover {
 	text-decoration: none;
 	color: #B6C9CC;
 }
+@media (max-width : 768px) {
+	ul {
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	#logo {
+		margin-bottom: 0px;
+	}
+}
 #line {
 	color: white;
 }
@@ -160,14 +169,16 @@ footer {
 }
 #alixlogo {
 	width: 100%;
-	max-width: 107px;
-	max-height: 107px;
-	margin: 5px 0;
+	max-width: 53.5px;
+	max-height: 53.5px;
+	margin: 8px 0;
+	float: left;
 }
 #designedby {
 	color: #FFF;
 	padding: 20px;
 	margin-bottom: 0;
+	float: left;
 }
 
 
@@ -190,6 +201,7 @@ footer {
 }
 .biggallery {
 	height: 210px;
+	margin-bottom: 5px;
 }
 #galleryone {
 	background-image: url(../images/DSC6355pics.jpg)
