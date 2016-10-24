@@ -18,8 +18,12 @@ header {
 	border-bottom: 3px solid #FFF;
 }
 .row{
-/*	width: 100%;
-*/}
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+
+/*	Need to look into this as it does not look centered*/
+}
 ul {
 	margin: 50px 0;
 	width: 100%;
@@ -175,9 +179,6 @@ footer {
 	background-position: center;
 	width: 100%
 }
-/*.biggallery {
-	background-image: url(../images/DSC6368pics.jpg)
-}*/
 #biggalleryone {
 	background-position: top;
 }
@@ -186,6 +187,9 @@ footer {
 }
 #biggallerythree {
 	background-position: bottom;
+}
+.biggallery {
+	height: 210px;
 }
 #galleryone {
 	background-image: url(../images/DSC6355pics.jpg)
