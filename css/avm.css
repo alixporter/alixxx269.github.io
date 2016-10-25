@@ -54,6 +54,12 @@ a:hover {
 	#logo {
 		margin-bottom: 0px;
 	}
+	#handmade {
+		margin-bottom: 10px;
+	}
+	#collect {
+		margin-bottom: 10px;
+	}
 }
 #line {
 	color: white;
@@ -239,17 +245,19 @@ footer {
 #gallerytwelve {
 	background-image: url(../images/DSC6367pics.jpg);
 }
-.grow {
-	z-index: 1 !important;
-	position: relative;
-}
-.grow:hover {
-    transform: scale(1.3);
-    z-index: 999 !important;
-    position: absolute;
-    border: solid 6px #FFF;
-}
-  .featherlight .featherlight-image {
-    max-height: 60vh !important;
-    width: auto !important;
-  }
+@media (min-width : 768px) {
+	.grow {
+		z-index: 1 !important;
+		position: relative;
+	}
+	.grow:hover {
+		transform: scale(1.3);
+		z-index: 999 !important;
+		position: absolute;
+		border: solid 6px #FFF;
+	}
+  	.featherlight .featherlight-image {
+    	max-height: 60vh !important;
+    	width: auto !important;
+  	}
+ }
